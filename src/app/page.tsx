@@ -1,9 +1,10 @@
-import LoginForm from "@/components/loginForm";
+import { Button } from "@mui/material";
 
 export default function Home() {
   return (
     <div>
-      <LoginForm/>
+      <Button variant="contained" href="/login">Login</Button>
+      <Button variant="contained">Signup</Button>
     </div>
   );
 }
