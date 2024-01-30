@@ -24,7 +24,7 @@ export default function LoginForm() {
                         type={showPassword ? 'text' : 'password'}
                     />
                 </FormControl>
-                <Button variant="contained" sx={{ width: '25ch' }}>Contained</Button>
+                <Button variant="contained" sx={{width: '25ch', m: 2 }}>Contained</Button>
             </div>
         </div>
     );
